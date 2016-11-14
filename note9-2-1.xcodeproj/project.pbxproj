@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320EF3221DD9499300E457CF /* swiftNewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320EF3211DD9499300E457CF /* swiftNewFile.swift */; };
 		321A8F611DD9408A001E8AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A8F601DD9408A001E8AAF /* AppDelegate.swift */; };
 		321A8F631DD9408A001E8AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A8F621DD9408A001E8AAF /* ViewController.swift */; };
 		321A8F661DD9408B001E8AAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321A8F641DD9408B001E8AAF /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320EF3211DD9499300E457CF /* swiftNewFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftNewFile.swift; sourceTree = "<group>"; };
 		321A8F5D1DD9408A001E8AAF /* note9-2-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "note9-2-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		321A8F601DD9408A001E8AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		321A8F621DD9408A001E8AAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				321A8F601DD9408A001E8AAF /* AppDelegate.swift */,
 				321A8F621DD9408A001E8AAF /* ViewController.swift */,
+				320EF3211DD9499300E457CF /* swiftNewFile.swift */,
 				321A8F641DD9408B001E8AAF /* Main.storyboard */,
 				321A8F671DD9408B001E8AAF /* Assets.xcassets */,
 				321A8F691DD9408B001E8AAF /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320EF3221DD9499300E457CF /* swiftNewFile.swift in Sources */,
 				321A8F631DD9408A001E8AAF /* ViewController.swift in Sources */,
 				321A8F611DD9408A001E8AAF /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				321A8F711DD9408B001E8AAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
