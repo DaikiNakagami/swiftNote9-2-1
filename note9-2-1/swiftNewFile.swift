@@ -7,16 +7,3 @@
 //
 
 import Foundation
-
-class MyClass {
-    
-    let msg = "ハロー"
-    
-    func hello() {
-        print(msg)
-    }
-    
-    
-    
-    
-}

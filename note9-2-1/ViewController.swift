@@ -24,14 +24,21 @@ class MyClass {
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myObj = MyClass()//MyClassのインスタンスを作って変数myObj入れた。
         
-        myObj.hello()//hello()を実行した。
+        
+        let myObj = MyClass() //MyClassのインスタンスを作って変数myObj入れた。
+        
+        myObj.hello()
+        //hello()を実行した。
         //MyObjというMyClassのインスタンスプロパティにドットシンタックスでアクセスしている。
+       
         //つまり.helloはmyObjにアクセスしている。
+        
         myObj.msg = "はーい、元気？"
+        
         //.msgは上で定義したmyObjにアクセスしている。
-        myObj.hello()//９−２−１ではこのクラスは空だったのでMyclassのmsgは定数だったが、今回はそれを使いまわし、値を変えるのでコメントアウトし、変数に設定した。
+        
+        myObj.hello()    //９−２−１ではこのクラスは空だったのでMyclassのmsgは定数だったが、今回はそれを使いまわし、値を変えるのでコメントアウトし、変数に設定した。
         
         // Do any additional setup after loading the view, typically from a nib.
     }
